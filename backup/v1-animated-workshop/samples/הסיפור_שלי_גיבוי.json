@@ -1,0 +1,177 @@
+{
+ "app": "bein-hashurot",
+ "format": 1,
+ "exportedAt": "2026-11-22T13:10:29.691Z",
+ "state": {
+  "v": 1,
+  "screen": "product",
+  "settings": {
+   "muted": false,
+   "steps": false
+  },
+  "learn": {
+   "cur": 0,
+   "sc": {}
+  },
+  "ws": {
+   "step": 2,
+   "charId": "noa",
+   "name": "נועה",
+   "gender": "f",
+   "place": "classroom",
+   "prop": "box",
+   "situation": "מוצאים משהו בתוך קופסה",
+   "sentences": [
+    {
+     "id": "n56i8oscp9",
+     "text": "נועה נכנסה לכיתה הריקה והתקדמה אל השולחן בצעדים קטנים.",
+     "dir": {
+      "actions": [
+       {
+        "id": "hesitant",
+        "dir": "toProp"
+       }
+      ],
+      "eyes": "keep",
+      "brows": "keep",
+      "mouth": "keep",
+      "posture": "keep",
+      "pace": "normal",
+      "pause": "none",
+      "speech": null,
+      "note": "",
+      "narration": false,
+      "confirmed": true,
+      "confirmedText": "נועה נכנסה לכיתה הריקה והתקדמה אל השולחן בצעדים קטנים."
+     }
+    },
+    {
+     "id": "npz5twxcp9",
+     "text": "על השולחן חיכתה קופסה, ועליה פתק: 'לנועה'.",
+     "dir": {
+      "actions": [
+       {
+        "id": "lookProp",
+        "dir": "toProp"
+       }
+      ],
+      "eyes": "keep",
+      "brows": "up",
+      "mouth": "keep",
+      "posture": "keep",
+      "pace": "normal",
+      "pause": "beforeAction",
+      "speech": null,
+      "note": "",
+      "narration": false,
+      "confirmed": true,
+      "confirmedText": "על השולחן חיכתה קופסה, ועליה פתק: 'לנועה'."
+     }
+    },
+    {
+     "id": "nsvnedccp9",
+     "text": "היא שלחה יד, עצרה, ואז פתחה את המכסה.",
+     "dir": {
+      "actions": [
+       {
+        "id": "reachStop",
+        "dir": "toProp"
+       },
+       {
+        "id": "openBox",
+        "dir": "toProp"
+       }
+      ],
+      "eyes": "wide",
+      "brows": "keep",
+      "mouth": "keep",
+      "posture": "keep",
+      "pace": "normal",
+      "pause": "none",
+      "speech": null,
+      "note": "",
+      "narration": false,
+      "confirmed": true,
+      "confirmedText": "היא שלחה יד, עצרה, ואז פתחה את המכסה."
+     }
+    },
+    {
+     "id": "nea7y7jeas",
+     "text": "'מי השאיר את זה?' לחשה, והצמידה את הקופסה אל החזה.",
+     "dir": {
+      "actions": [
+       {
+        "id": "hug",
+        "dir": "toProp"
+       }
+      ],
+      "eyes": "keep",
+      "brows": "keep",
+      "mouth": "smallSmile",
+      "posture": "keep",
+      "pace": "normal",
+      "pause": "none",
+      "speech": {
+       "text": "מי השאיר את זה?",
+       "volume": "quiet"
+      },
+      "note": "",
+      "narration": false,
+      "confirmed": true,
+      "confirmedText": "'מי השאיר את זה?' לחשה, והצמידה את הקופסה אל החזה.",
+      "speechWhen": "before"
+     }
+    },
+    {
+     "id": "nuxce9befz",
+     "text": "אחר כך הביטה לרגע אל הדלת.",
+     "dir": null
+    }
+   ],
+   "checks": {},
+   "challenge": false,
+   "showPrompts": false,
+   "editing": null,
+   "secret": {
+    "emo": [
+     "הפתעה",
+     "סקרנות"
+    ],
+    "other": "",
+    "why": "מישהו השאיר לה קופסה בלי לחתום, והיא לא יודעת מי.",
+    "a": "",
+    "b": "",
+    "causeA": "",
+    "causeB": "",
+    "hidden": ""
+   }
+  },
+  "versions": {
+   "first": null,
+   "after": null
+  },
+  "product": {
+   "title": "קופסה על השולחן",
+   "author": "כותבת מכיתה ד׳",
+   "images": [
+    {
+     "sid": "npz5twxcp9",
+     "kind": "end"
+    },
+    {
+     "sid": "nsvnedccp9",
+     "kind": "end"
+    },
+    {
+     "sid": "nea7y7jeas",
+     "kind": "speech"
+    }
+   ],
+   "noImages": false
+  },
+  "present": {
+   "guesses": [],
+   "showText": true
+  }
+ }
+}

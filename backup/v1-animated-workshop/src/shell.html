@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>מה מסתתר בין השורות?</title>
+<meta name="description" content="משחק כתיבה: רואים רמזים, מגלים רגשות, כותבים סיפור שאפשר להרגיש.">
+<style>
+/*CSS*/
+</style>
+</head>
+<body>
+<header class="topbar">
+  <button class="brand" data-go="home" type="button">מה מסתתר בין השורות?</button>
+  <nav class="tabs" aria-label="אזורי המשחק">
+    <button type="button" data-go="learn">מגלים</button>
+    <button type="button" data-go="create">יוצרים</button>
+    <button type="button" data-go="present">מציגים</button>
+    <button type="button" data-go="product">התוצר שלי</button>
+  </nav>
+  <div class="tools">
+    <button type="button" id="muteBtn" aria-pressed="false">🔊 צליל פועל</button>
+    <button type="button" id="stepsBtn" aria-pressed="false">🖼 תמונות לפי צעדים</button>
+    <span id="saveStatus" role="status"></span>
+  </div>
+</header>
+<div id="banner" hidden></div>
+<main id="app" tabindex="-1"></main>
+<div id="live" class="sr" aria-live="polite"></div>
+<div id="toast" aria-hidden="true"></div>
+<div id="modal" hidden></div>
+<script>
+/*JS*/
+</script>
+</body>
+</html>
